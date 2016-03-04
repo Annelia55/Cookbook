@@ -1,0 +1,47 @@
+/* Прижать footer к низу страницы */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg_1.jpg);
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+* html .page-wrapper {
+    height: 100%;
+}
+.page-footer {
+    margin-left: 5px;
+}
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0; /* прижимаем navbar к верху экрана */
+    padding: 0; /* прижимаем navbar к верху экрана */
+    overflow:hidden;
+    background-color: #746f54;
+    opacity: 0.7;
+}
+li {
+    float: left ;
+    border-right: 1px solid #bbb;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+li a:hover {
+    background-color: #545038;
+}
+
+
+
