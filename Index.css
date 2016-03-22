@@ -2,13 +2,14 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(images/bg_1.jpg);
+    background-image: url(images_1/bg_1.jpg);
     background-attachment: fixed;
     background-position: 0 0;
     background-repeat: repeat;
 }
 
-.header {
-float: right;
+.article {
+    background-color: white;
+    margin-left: 140px;
+    margin-right: 140px;
 }
-
