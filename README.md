@@ -1,2 +1,2 @@
-# Cookbook
-My first interactive website. 
+# Sweet recepies
+The site contains the collection of sweet recepies.
