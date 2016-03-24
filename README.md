@@ -1,3 +1,4 @@
 # Sweet recepies
-The site contains the collection of sweet recepies.
-![Main page](images/Cake.png)
+
+[This site](https://cdn.rawgit.com/Annelia55/Sweet-recepies/master/Index.html) contains the collection of sweet recepies.
+![Main page](images_1/Cake.png)
