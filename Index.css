@@ -25,12 +25,14 @@ li {
 }
 li a {
     display: block;
-    color: black;
+    color: #e6e0b7;
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
     font-family: 'Marck Script', cursive;
     font-size: 22px;
+    background-color: #bc000f;
+    border-right: 1px solid grey;
 }
 
 a:hover {
