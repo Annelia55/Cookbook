@@ -15,9 +15,9 @@
 /* Navigation */
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
 li {
@@ -33,6 +33,7 @@ li a {
     font-size: 22px;
     background-color: #bc000f;
     border-right: 1px solid grey;
+    margin-top: 50px;
 }
 
 a:hover {
