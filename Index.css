@@ -7,6 +7,7 @@
 .header {
     margin-top: -40px;
     margin-bottom: -18px;
+
 }
 .content {
     background-color: white;
@@ -17,7 +18,6 @@ ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-
 }
 
 li {
@@ -27,19 +27,25 @@ li a {
     display: block;
     color: #e6e0b7;
     text-align: center;
-    padding: 10px 15px;
+    padding: 15px 15px;
     text-decoration: none;
     font-family: 'Marck Script', cursive;
     font-size: 22px;
-    background-color: #bc000f;
-    border-right: 1px solid grey;
+    background-color: #b2171d;
+    border-right: 1px solid white;
     margin-top: 50px;
+    border-bottom: 4px solid #f1f1eb;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 
 a:hover {
     text-decoration: none;
-    color: black;
+    color: white;
+
 }
-.navbar {
+#navbar {
+    margin-top: -5px;
 
 }
