@@ -47,5 +47,7 @@ a:hover {
 }
 #navbar {
     margin-top: -5px;
-
+}
+p {
+    text-align: justify;
 }
