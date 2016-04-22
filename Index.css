@@ -13,6 +13,16 @@
     background-color: white;
     border-radius: 10px;
 }
+.content > p {
+    margin-bottom: 50px;
+}
+p {
+    text-align: justify;
+}
+.pages-img {
+    width: 300px;
+    float: left;
+}
 /* Navigation */
 ul {
     list-style-type: none;
@@ -48,6 +58,5 @@ a:hover {
 #navbar {
     margin-top: -5px;
 }
-p {
-    text-align: justify;
-}
+
+
