@@ -19,6 +19,12 @@
 p {
     text-align: justify;
 }
+#main_img {
+    text-align: center;
+    display:block;
+    margin:0 auto;
+
+}
 .pages-img {
     width: 300px;
     float: left;
