@@ -9,6 +9,18 @@
     margin-bottom: -18px;
 
 }
+p {
+    text-align: justify;
+}
+.index_content {
+    background-color: white;
+    border-radius: 10px;
+}
+.index_content > p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
 .content {
     background-color: white;
     border-radius: 10px;
@@ -16,9 +28,7 @@
 .content > p {
     margin-bottom: 50px;
 }
-p {
-    text-align: justify;
-}
+
 #main_img {
     text-align: center;
     display:block;
