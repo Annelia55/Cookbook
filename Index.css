@@ -24,9 +24,10 @@ p {
 .content {
     background-color: white;
     border-radius: 10px;
+    border: 1px solid #bdb09d;
 }
 .content > p {
-    margin-bottom: 50px;
+    margin: 20px 10px 50px 0px;
 }
 
 #main_img {
@@ -38,7 +39,9 @@ p {
 .pages-img {
     width: 300px;
     float: left;
+    margin: 20px 20px 10px 20px;
 }
+
 /* Navigation */
 ul {
     list-style-type: none;
