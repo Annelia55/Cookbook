@@ -1,3 +1,4 @@
+/* Main */
 .jumbotron {
     background-image: url(images_1/bg_1.jpg);
     background-attachment: fixed;
@@ -11,6 +12,8 @@
 p {
     text-align: justify;
 }
+
+/* Content */
 .index_content {
     background-color: #fffff5;
     border-radius: 10px;
@@ -27,7 +30,7 @@ p {
     border: 1px solid #bdb09d;
 }
 .content > p {
-    margin: 20px 10px 50px 0px;
+    margin: 35px 10px 50px 0px;
 }
 
 #main_img {
@@ -35,11 +38,22 @@ p {
     display:block;
     margin:0 auto;
     margin-top: 20px;
+    border: 1px solid #bdb09d;
+    border-radius: 50px;
 }
 .pages-img {
     width: 300px;
     float: left;
-    margin: 20px 20px 10px 20px;
+    margin: 20px 30px 10px 20px;
+    border: 1px solid #bdb09d;
+    border-radius: 30px;
+}
+.pages-img_1 {
+    width: 300px;
+    float: left;
+    margin: 40px 30px 10px 20px;
+    border: 1px solid #bdb09d;
+    border-radius: 30px;
 }
 
 /* Navigation */
