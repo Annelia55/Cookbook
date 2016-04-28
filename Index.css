@@ -33,9 +33,7 @@ p {
     background-color: #fffff5;
     border-radius: 10px;
     border: 1px solid #bdb09d;
-}
-.content > p {
-    margin: 35px 10px 50px 0px;
+    margin-top: 170px;
 }
 
 #main_img {
@@ -53,10 +51,10 @@ p {
     border: 1px solid #bdb09d;
     border-radius: 30px;
 }
-.pages-img_1 {
+#pages-img_1 {
     width: 300px;
     float: left;
-    margin: 40px 30px 10px 20px;
+    margin: 30px 30px 10px 20px;
     border: 1px solid #bdb09d;
     border-radius: 30px;
 }
