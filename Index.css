@@ -61,6 +61,12 @@ p {
     border: 1px solid #bdb09d;
     border-radius: 30px;
 }
+.content_text {
+    margin-top: 70px;
+}
+.content_text > .btn {
+    margin-top: 15px;
+}
 
 /* Navigation */
 ul {
