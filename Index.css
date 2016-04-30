@@ -1,74 +1,22 @@
 @font-face {
-    font-family: ???;
-    src: url(fonts/???);
+    font-family: Ametist;
+    src: url(fonts/Ametist.ttf);
 }
 
-/* Main */
-.jumbotron {
-    background-image: url(images_1/bg_1.jpg);
-    background-attachment: fixed;
-    background-position: 0 0;
-    background-repeat: repeat;
-}
-.header {
-    margin-top: -40px;
-    margin-bottom: 10px;
-}
-/*
-p {
-    text-align: justify;
-}
-*/
-
-/* Content */
-.index_content {
-    background-color: #fffff5;
-    border-radius: 10px;
-    border: 1px solid #bdb09d;
-    margin-top: 20px;
-}
-.index_content > p {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-.content {
-    background-color: #fffff5;
-    border-radius: 10px;
-    border: 1px solid #bdb09d;
-    margin-top: 170px;
-}
-
-#main_img {
-    text-align: center;
-    display:block;
-    margin:0 auto;
-    border: 1px solid #bdb09d;
-    border-radius: 50px;
-    height: 500px;
-}
-.pages-img {
-    width: 300px;
-    float: left;
-    margin: 20px 30px 10px 20px;
-    border: 1px solid #bdb09d;
-    border-radius: 30px;
-}
-#pages-img_1 {
-    width: 300px;
-    float: left;
-    margin: 30px 30px 10px 20px;
-    border: 1px solid #bdb09d;
-    border-radius: 30px;
-}
-.content_text {
-    margin-top: 70px;
-}
-.content_text > .btn {
-    margin-top: 15px;
+@font-face {
+    font-family: "flibustiere";
+    src: url(fonts/flibustiere.ttf);
 }
 
 /* Navigation */
+#navbar {
+    margin-top: -6px;
+}
+
+#navbar > ul > li > a {
+    font-family: "Ametist", cursive;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -78,13 +26,13 @@ ul {
 li {
     float: left;
 }
+
 li a {
     display: block;
     color: #e6e0b7;
     text-align: center;
     padding: 15px 15px;
     text-decoration: none;
-    font-family: 'Marck Script', cursive;
     font-size: 22px;
     background-color: #b2171d;
     border-right: 1px solid white;
@@ -100,8 +48,92 @@ a:hover {
     color: white;
 
 }
-#navbar {
-    margin-top: -6px;
+
+
+/* Main */
+.jumbotron {
+    background-image: url(images_1/bg_1.jpg);
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-repeat: repeat;
 }
+
+.header {
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: "Ametist", cursive;
+    font-size: 42px !important;
+}
+
+p {
+    font-family: "Jura", cursive;
+}
+
+/* Content */
+.index_content {
+    background-color: #fffff5;
+    border-radius: 10px;
+    border: 1px solid #bdb09d;
+    margin-top: 20px;
+}
+
+.index_content > p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content {
+    background-color: #fffff5;
+    border-radius: 10px;
+    border: 1px solid #bdb09d;
+    margin-top: 130px;
+}
+
+#main_img {
+    text-align: center;
+    display:block;
+    margin:0 auto;
+    border: 1px solid #bdb09d;
+    border-radius: 50px;
+    height: 500px;
+}
+
+.pages-img {
+    width: 300px;
+    float: left;
+    margin: 20px 30px 10px 20px;
+    border: 1px solid #bdb09d;
+    border-radius: 30px;
+}
+
+#pages-img_1 {
+    width: 300px;
+    float: left;
+    margin: 30px 30px 10px 20px;
+    border: 1px solid #bdb09d;
+    border-radius: 30px;
+}
+
+.content_text {
+    margin-top: 70px;
+}
+
+.btn {
+    font-family: "Jura", cursive;
+}
+
+.content_text > .btn {
+    margin-top: 15px;
+}
+
+
+
+
+
+
 
 
