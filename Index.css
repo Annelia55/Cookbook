@@ -92,15 +92,6 @@ a:hover {
     margin-top: 50px;
 }
 
-#main_img {
-    text-align: center;
-    display:block;
-    margin:0 auto;
-    border: 1px solid #bdb09d;
-    border-radius: 50px;
-    height: 500px;
-}
-
 #pages-img_1 {
     width: 300px;
     float: left;
