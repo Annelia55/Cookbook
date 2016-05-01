@@ -3,11 +3,6 @@
     src: url(fonts/Ametist.ttf);
 }
 
-@font-face {
-    font-family: "flibustiere";
-    src: url(fonts/flibustiere.ttf);
-}
-
 /* Navigation */
 #navbar {
     margin-top: -6px;
@@ -69,7 +64,7 @@ h1 {
 }
 
 p {
-    font-family: "Jura", cursive;
+    font-family: "Jura", "san-serif";
 }
 
 /* Content */
@@ -84,13 +79,18 @@ p {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    font-family: "Jura", "san-serif";
 }
 
 .content {
     background-color: #fffff5;
     border-radius: 10px;
     border: 1px solid #bdb09d;
-    margin-top: 130px;
+    margin-top: 170px;
+}
+
+.content_text {
+    margin-top: 50px;
 }
 
 #main_img {
@@ -102,14 +102,6 @@ p {
     height: 500px;
 }
 
-.pages-img {
-    width: 300px;
-    float: left;
-    margin: 20px 30px 10px 20px;
-    border: 1px solid #bdb09d;
-    border-radius: 30px;
-}
-
 #pages-img_1 {
     width: 300px;
     float: left;
@@ -118,12 +110,16 @@ p {
     border-radius: 30px;
 }
 
-.content_text {
-    margin-top: 70px;
+.pages-img {
+    width: 300px;
+    float: left;
+    margin: 20px 30px 30px 20px;
+    border: 1px solid #bdb09d;
+    border-radius: 30px;
 }
 
 .btn {
-    font-family: "Jura", cursive;
+    font-family: "Jura", "san-serif";
 }
 
 .content_text > .btn {
