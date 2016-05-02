@@ -13,8 +13,7 @@
     text-align: center;
     display:block;
     margin:0 auto;
-    margin-top: -35px;
-    margin-bottom: 21px;
+    margin-bottom: 27px;
 }
 
 .slider {
@@ -39,14 +38,14 @@
     position: absolute;
     width: inherit;
     z-index: 0;
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
     -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
     -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
     -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-    transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    transition: transform ease-in-out .6s, opacity ease-in-out .5s;
 }
 
 #slide1:checked ~ .slider > .slide1,
@@ -66,7 +65,8 @@
 .slide3 { background-image: url(images_1/Slide_3.jpg); }
 
 .wrapper .controls {
-    left: 44%;
+    left: 50%;
+    margin-left: -70px;
     position: absolute;
 }
 
@@ -74,9 +74,9 @@
     cursor: pointer;
     display: inline-block;
     height: 8px;
+    width: 8px;
     margin: 25px 12px 0 16px;
     position: relative;
-    width: 8px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -84,13 +84,13 @@
 }
 
 .wrapper label:after {
-    border: 2px solid #bdb09d;
+    border: 3px solid #c6ba93;
     content: " ";
     display: block;
     height: 14px;
     width: 14px;
     position: absolute;
-    top: -10px;
+    top: -3px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -99,10 +99,10 @@
 .wrapper label {
     cursor: pointer;
     display: inline-block;
-    height: 8px;
-    margin: 25px 12px 0 16px;
+    height: 9px;
+    width: 13px;
+    margin: 24px 12px 0 16px;
     position: relative;
-    width: 8px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -118,5 +118,6 @@
 #slide2:checked ~ .controls label:nth-of-type(2),
 #slide3:checked ~ .controls label:nth-of-type(3)
   {
-    background: #b2171d;
+    background-color: #f4f4e8;
 }
+
