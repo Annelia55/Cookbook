@@ -4,6 +4,20 @@
 }
 
 /* Main */
+body {
+    background-image: url(images_1/bg_1.jpg);
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+#name {
+    font-family: "Ametist", cursive;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
 .jumbotron {
     background-image: url(images_1/bg_1.jpg);
     background-attachment: fixed;
