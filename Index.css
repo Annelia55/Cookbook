@@ -86,6 +86,8 @@ a:hover {
     border-radius: 10px;
     border: 1px solid #bdb09d;
     margin-top: 20px;
+    width: 800px;
+    margin-left: 180px;
 }
 
 .index_content > p {
