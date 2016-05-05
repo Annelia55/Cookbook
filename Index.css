@@ -124,7 +124,7 @@ a:hover {
     border-radius: 30px;
 }
 
-/* Grow */
+/* Grow button */
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -151,8 +151,13 @@ a:hover {
     transform: scale(1.1);
 }
 
-
-
+/* Recepies page */
+.recepie {
+    text-align: justify;
+}
+.recepie > h1 {
+    text-align: center  ;
+}
 
 
 
