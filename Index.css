@@ -44,21 +44,17 @@ p {
     margin-top: -6px;
 }
 
-#navbar > ul > li > a {
-    font-family: "Ametist", cursive;
-}
-
-ul {
+#navbar > ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+#navbar > ul > li {
     float: left;
 }
 
-li a {
+#navbar > ul > li > a {
     display: block;
     color: #e6e0b7;
     text-align: center;
@@ -72,6 +68,7 @@ li a {
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
+    font-family: "Ametist", cursive;
 }
 
 a:hover {
@@ -155,8 +152,14 @@ a:hover {
 .recepie {
     text-align: justify;
 }
+
 .recepie > h1 {
     text-align: center  ;
+}
+
+#Ingridients {
+    font-family: "Jura", "san-serif";
+    font-size: 18px;
 }
 
 
