@@ -30,13 +30,13 @@ body {
     margin-bottom: 10px;
 }
 
+p {
+    font-family: "Jura", "san-serif";
+}
+
 h1 {
     font-family: "Ametist", cursive;
     font-size: 36px !important;
-}
-
-p {
-    font-family: "Jura", "san-serif";
 }
 
 /* Navigation */
@@ -102,7 +102,7 @@ a:hover {
 }
 
 .content_text {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #pages-img_1 {
