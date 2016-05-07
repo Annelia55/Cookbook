@@ -149,23 +149,36 @@ a:hover {
 }
 
 /* Recepies page */
-.recepie {
-    text-align: justify;
+.recepie_ing {
+    margin-top: 95px;
 }
 
-.recepie > h1 {
-    text-align: center;
+.img_hot {
+    border: 1px solid #bdb09d;
+    border-radius: 30px;
 }
 
 h2 {
     font-family: "Jura", "san-serif";
-    margin-left: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 #ingridients {
     font-family: "Jura", "san-serif";
     font-size: 18px;
+    margin-left: 110px;
 }
+
+.recepie_text {
+    text-align: justify;
+}
+
+.recepie_text > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 
 
 
