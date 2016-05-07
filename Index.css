@@ -154,10 +154,15 @@ a:hover {
 }
 
 .recepie > h1 {
-    text-align: center  ;
+    text-align: center;
 }
 
-#Ingridients {
+h2 {
+    font-family: "Jura", "san-serif";
+    margin-left: 20px;
+}
+
+#ingridients {
     font-family: "Jura", "san-serif";
     font-size: 18px;
 }
