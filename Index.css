@@ -71,7 +71,7 @@ h1 {
     font-family: "Ametist", cursive;
 }
 
-a:hover {
+#navbar > ul > li > a:hover {
     text-decoration: none;
     color: white;
 
@@ -81,6 +81,8 @@ a:hover {
 .index_content {
     background-color: #fffff5;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border: 1px solid #bdb09d;
     margin-top: 20px;
     width: 800px;
@@ -111,6 +113,8 @@ a:hover {
     margin: 30px 30px 10px 20px;
     border: 1px solid #bdb09d;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
 .pages-img {
@@ -119,43 +123,23 @@ a:hover {
     margin: 20px 30px 30px 20px;
     border: 1px solid #bdb09d;
     border-radius: 30px;
-}
-
-/* Grow button */
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(255, 255, 255, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    font-family: "Jura", "san-serif";
-    margin-top: 15px;
-
-}
-.hvr-grow:hover {
-    background-color: white;
-}
-
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
 /* Recepies page */
-.recepie_ing {
+.recepie_img {
     margin-top: 95px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
 .img_hot {
     border: 1px solid #bdb09d;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
 h2 {
@@ -179,6 +163,37 @@ h2 {
     margin-bottom: 30px;
 }
 
+/* Image resize */
+.blokimg {position: relative;}
+
+.overlay{
+    display: none;
+    height: auto;
+    left: -5%;
+    position: absolute;
+    top: -29%;
+    width: auto;
+    z-index: 999;
+}
+.overlay .overlay_container{
+    display: table-cell;
+
+    vertical-align: middle;
+}
+.overlay_container img{
+    padding: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+.overlay:target {
+    display: table;
+}
+.img_b {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
 
 
 
