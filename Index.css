@@ -138,30 +138,28 @@ h1 {
     -moz-border-radius: 30px;
 }
 
+/* Advice page */
 #advice-img_1 {
-    width: 100px;
-    margin-left: 20px;
+    width: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .advice-img {
-    width: 100px;
-    margin-left: 20px;
+    width: 50px;
     margin-bottom: 20px;
 }
 
 .advice_text{
-    margin-top: 30px;
+    margin-top: 9px;
     margin-left: -35px;
     text-align: justify;
 }
 
 .advice_text > a {
-    margin-top: 30px;
     text-decoration: none;
     font-family: "Ametist", cursive;
-    font-size: 24px !important;
+    font-size: 22px !important;
     color: black;
 }
 
@@ -171,22 +169,30 @@ h1 {
 }
 
 .advice_text_1{
-    margin-top: 50px;
+    margin-top: 27px;
     margin-left: -35px;
     text-align: justify;
 }
 
 .advice_text_1 > a {
-    margin-top: 30px;
     text-decoration: none;
     font-family: "Ametist", cursive;
-    font-size: 24px !important;
+    font-size: 22px !important;
     color: black;
 }
 
 .advice_text_1 > a:hover {
     text-decoration: none;
     color: #b2171d;
+}
+
+.advice_text_2 {
+    margin: 10px 20px 10px 20px;
+    text-align: justify;
+}
+
+.advice_text_2 > h1 {
+    text-align: center;
 }
 
 /* Recepies page */
@@ -204,7 +210,7 @@ h1 {
     -moz-border-radius: 30px;
 }
 
-h2 {
+.recepie_img > h2 {
     font-family: "Jura", "san-serif";
     text-align: center;
     margin-top: 40px;
@@ -260,7 +266,7 @@ h2 {
 /* Share buttons */
 #share-buttons {
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #share-buttons img {
