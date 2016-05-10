@@ -187,12 +187,24 @@ h1 {
 }
 
 .advice_text_2 {
+    font-family: "Jura", "san-serif";
     margin: 10px 20px 10px 20px;
     text-align: justify;
 }
 
 .advice_text_2 > h1 {
     text-align: center;
+}
+
+.advice_text_2 > ul {
+    font-size: 22px;
+}
+
+.advice_text_2 > ul > li {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 /* Recepies page */
@@ -270,6 +282,7 @@ h1 {
 }
 
 #share-buttons img {
+    margin-top: 30px;
     width: 35px;
     padding: 5px;
     border: 0;
