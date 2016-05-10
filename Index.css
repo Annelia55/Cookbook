@@ -196,15 +196,16 @@ h1 {
     text-align: center;
 }
 
-.advice_text_2 > ul {
-    font-size: 22px;
-}
-
 .advice_text_2 > ul > li {
     font-size: 22px;
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: bold;
+}
+.advice_text_2 > ol > li  {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 /* Recepies page */
