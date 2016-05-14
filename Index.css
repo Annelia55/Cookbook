@@ -237,6 +237,7 @@ h1 {
 
 .recepie_text {
     text-align: justify;
+    font-family: "Jura", "san-serif";
 }
 
 .recepie_text > h1 {
