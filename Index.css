@@ -84,9 +84,7 @@ h1 {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border: 1px solid #bdb09d;
-    margin-top: 20px;
-    width: 800px;
-    margin-left: 180px;
+    margin-top: 30px;
 }
 
 .index_content > p {
@@ -104,15 +102,17 @@ h1 {
 }
 
 .content_text {
-    margin-top: 30px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .content_text > a {
     text-decoration: none;
     font-family: "Ametist", cursive;
-    font-size: 36px !important;
+    font-size: 32px !important;
     color: black;
 }
+
 .content_text > a:hover {
     text-decoration: none;
     color: #b2171d;
@@ -121,21 +121,25 @@ h1 {
 #pages-img_1 {
     width: 400px;
     float: left;
-    margin: 30px 30px 10px 20px;
     border: 1px solid #bdb09d;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
 }
 
 .pages-img {
     width: 400px;
     float: left;
-    margin: 20px 30px 30px 20px;
     border: 1px solid #bdb09d;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
 }
 
 /* Advice page */
@@ -214,6 +218,9 @@ h1 {
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
 }
 
 .img_hot {
