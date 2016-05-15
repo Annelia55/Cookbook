@@ -200,6 +200,7 @@ h1 {
 
 /* Recepies page */
 .recepie_img {
+    border: 1px solid #bdb09d;
     margin-top: 20px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
