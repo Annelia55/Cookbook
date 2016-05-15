@@ -96,6 +96,8 @@ h1 {
 
 .content {
     background-color: #fffff5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
     border: 1px solid #bdb09d;
     margin-top: 170px;
@@ -198,7 +200,7 @@ h1 {
 
 /* Recepies page */
 .recepie_img {
-    margin-top: 95px;
+    margin-top: 20px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -207,50 +209,42 @@ h1 {
     max-width: 100%;
 }
 
-.img_hot {
-    border: 1px solid #bdb09d;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-}
-
-.recepie_img > h2 {
-    font-family: "Jura", "san-serif";
-    text-align: center;
-    margin-top: 40px;
-}
-
-#ingridients {
+.ingridients {
     font-family: "Jura", "san-serif";
     font-size: 18px;
-    margin-left: 110px;
+}
+
+.ingridients > ul {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 .recepie_text {
     text-align: justify;
     font-family: "Jura", "san-serif";
+    margin-top: 15px;
 }
 
 .recepie_text > h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 /* Image resize */
 .blokimg {position: relative;}
 
+
 .overlay{
     display: none;
     height: auto;
-    left: -5%;
     position: absolute;
-    top: -29%;
+    right: -26%;
     width: auto;
     z-index: 999;
 }
 .overlay .overlay_container{
     display: table-cell;
-
     vertical-align: middle;
 }
 .overlay_container img{
@@ -262,32 +256,22 @@ h1 {
 .overlay:target {
     display: table;
 }
-.img_b {
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-}
 
 /* Share buttons */
 #share-buttons {
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin: 15px 0px 10px 0px;
 }
 
 #share-buttons img {
-    margin-top: 30px;
     width: 35px;
     padding: 5px;
     border: 0;
     box-shadow: 0;
-    display: inline;
-    text-align: center;
+    display: inline-block;
 }
 
 .search {
     float: right;
-    margin-top: -40px;
-    margin-right: 10px;
 }
 
 
