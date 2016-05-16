@@ -232,6 +232,13 @@ h1 {
     margin-bottom: 5px;
 }
 
+.recepie_text > ol {
+    font-size: 20px;
+}
+.recepie_text > ul {
+    font-size: 20px;
+}
+
 /* Image resize */
 .blokimg {position: relative;}
 
