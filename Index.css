@@ -120,7 +120,7 @@ h1 {
     color: #b2171d;
 }
 
-.content_text > img {
+.content_text > a > img {
     border: 1px solid #bdb09d;
     border-radius: 30px;
     -webkit-border-radius: 30px;
