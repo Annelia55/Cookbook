@@ -142,7 +142,7 @@ h1 {
 
 .advice_text{
     margin-top: 9px;
-    margin-left: -35px;
+    margin-left: -20px;
     text-align: justify;
 }
 
@@ -160,7 +160,7 @@ h1 {
 
 .advice_text_1{
     margin-top: 27px;
-    margin-left: -35px;
+    margin-left: -20px;
     text-align: justify;
 }
 
@@ -282,6 +282,30 @@ h1 {
     float: right;
 }
 
+/* Slider */
+.carousel {
+    height: 500px;
+}
+.carousel .item {
+    height: 500px;
+}
+.carousel-inner > .item > img {
+    min-width: 100%;
+    height: 500px;
+}
+.carousel-caption h4 {
+    font-size: 300%;
+}
+.carousel-caption h1 {
+    color: #fff;
+    font-size: 6rem;
+    font-family: "Ametist", cursive;
+}
+.carousel-caption h1 span {
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: none;
+}
 
 
 
