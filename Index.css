@@ -307,10 +307,44 @@ h1 {
     text-shadow: none;
 }
 
-
-
-
-
-
-
-
+.carousel-caption h1 {
+    animation: baner 12s ease-in 0.2s infinite;
+    -moz-animation: baner 12s ease-in 0.2s infinite;
+    -webkit-animation: baner 12s ease-in 0.2s infinite;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    display: inline-block;
+}
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+@-webkit-keyframes baner {
+    0% {
+        -webkit-transform: perspective(300px) rotateY(0deg);
+    }
+    15%, 100% {
+        -webkit-transform: perspective(300px) rotateY(360deg);
+    }
+}
+@-moz-keyframes baner {
+    0% {
+        -moz-transform: perspective(300px) rotateY(0deg);
+    }
+    15%, 100% {
+        -moz-transform: perspective(300px) rotateY(360deg);
+    }
+}
+@keyframes baner {
+    0% {
+        transform: perspective(300px) rotateY(0deg);
+    }
+    15%, 100% {
+        transform: perspective(300px) rotateY(360deg);
+    }
+}
+.btn-opacity,.btn-opacity:hover {background:transparent;color:#fff;border:1px solid #fff;}
